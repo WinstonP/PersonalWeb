@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Winstons Resume Page</title>
+        
+        <link rel="stylesheet" href="main.css">
+    
+
+    <script src="/scripts/jquery.min.js"></script>
+   <script src="/bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    </head>
+    
+    <body>
+   <div class = "container">
+      <h1>Winston's Resume!</h1>
+      <p>work in progress</p>
+          <div class="row">
+        <div class="col s12 m7">
+          <div class="card">
+            <div class="card-image">
+              <img src="/screenshots/ImageThree.jpg"> 
+              <span class="card-title">Winston P.</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very passionate about technology, and try to spread it as much as possible.I am currently a fulltime student, but also try to fill my downtime with interesting projects and new connections.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.linkedin.com/in/winston-parris"> linkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>
+         <a class = "btn btn-primary btn-lg" role = "button">Learn more</a>
+      </p>
+   </div>
+        
+        <!--
+            LET US KNOW WHAT YOU THINK
+        -->
+        <h2>Winston's Projects</h2>
+      <div class = "panel panel-default">
+   <div class = "panel-heading">
+      <h3 class = "panel-title">
+        <p class="font-weight-bold">Ignite CS Team Lead</p>
+      </h3>
+   </div>
+   <div class = "panel-body">
+     <ul>
+            <li>One of five team leads to introduce local New Orleans high school students to Lego MindStorms Robotics coding</li>
+            <li>Developed an entire curriculum to explain complex computer science topics </li>
+            <li>Improve team-building skills on a personal level</li>
+            
+        </ul>
+   </div>
+</div>
+         
+        
+        <div class = "panel panel-default">
+   <div class = "panel-heading">
+      <h3 class = "panel-title">
+        <p>
+          T'Cookin
+        </p>
+      </h3>
+   </div>
+   
+   <div class = "panel-body">
+     <ul>
+            <li>Led a Hackathon Team that implemented a Tinder-like web-application using HTML5</li>
+            <li>CSS3 to create access to simplified recipes for college students </li>
+        </ul>
+   </div>
+</div>
+        
+    <div class = "panel panel-default">
+   <div class = "panel-heading">
+      <h3 class = "panel-title">
+         <p>
+        Xavier University Hackathon 
+        </p>
+      </h3>
+   </div>
+   
+   <div class = "panel-body">
+     <ul>
+        <li>Led a team of five students to create commuter students find parking App using the MIT AppInventor </li>
+        <li>First Place out of five teams</li>
+        </ul>
+   </div>
+</div>
+        
+        
+        
+        <button onclick="myFunction('Demo1')" class="w3-btn-block w3-left-align">
+Accordion</button>
+
+<div id="Demo1" class="w3-hide">
+  <ul class="w3-ul">
+    <li>Jill</li>
+    <li>Eve</li>
+    <li>Adam</li>
+  </ul>
+</div>
+        
+
+        
+    </body>
+</html>
+<!--
+
+-->
